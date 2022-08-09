@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Open+Sans&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    background-color: #7c6891;
+font-family: 'Open Sans', sans-serif;
+}
+form{
+    position: relative;
+    margin: auto;
+    width: 40%;
+    background-color: #bfbfbf;
+    height: auto;
+    margin-top: 5em;  
+    padding-bottom: 2.5rem;
+}
+h3{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+input[type=number]{
+    height: 1.5rem;
+    width: 90%;
+}
+label{
+    padding-left: 2em;
+}
+input[type=button]{
+    width: 90%;
+    height: 3em;
+    margin-top: 1em;
+    border: none;
+    background: #B9F0E7;
+}
+input{
+    display: block;
+    margin: auto;
+}
+#err, #msg, #msg2{
+    text-align: center;
+    background-color: red;
+    margin: auto;
+    width: 40%;   
+    margin-top: 2.5rem; 
+}
+#respuesta{
+    text-align: center;
+    background-color: green;
+    margin: auto;
+    width: 40%;   
+    margin-top: 2.5rem;
+
+}
+table{
+    margin: auto;
+    border: 1px solid #000; 
+    margin-top: 1rem;
+
+}
+th{
+    background-color: #167D7F;
+}
+td{
+    background-color: #fff;
+}
